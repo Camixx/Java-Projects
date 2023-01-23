@@ -2,7 +2,7 @@
 
 Una empresa de software que se dedica a crear componentes gráficos para el desarrollo de aplicaciones nos había pedido desarrollar el “corazón” del sistema de menúes que utilizará. Este menú está implementado para consola y cuenta con una clase para el menú y varias clases distintas que heredan de una clase abstracta común para implementar varios tipos de opciones de menú. Aceptaron nuestro prototipo (cuyo diseño se puede ver aquí debajo) pero nos pidieron ciertos cambios.
 
-![UML](bin\parcial1\Parcial1.png)
+![Parcial1](https://user-images.githubusercontent.com/66759199/213951180-b585c5e0-9839-4b04-be5d-65db05dbb629.png)
 
 ## Nos piden
 
