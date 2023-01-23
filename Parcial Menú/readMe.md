@@ -7,83 +7,28 @@ Una empresa de software que se dedica a crear componentes gráficos para el desa
 ## Nos piden
 
 
-Escribir la interfaz Activable, que tiene declarado los métodos activar(), desactivar() y estaActivada():boolean.
+- Escribir la interfaz **Activable**, que tiene declarado los métodos **activar()**, **desactivar()** y **estaActivada():boolean**.
 
-Crear la clase OpcionOnOff que extiende OpcionDeMenu e implementa Activable.
+- Crear la clase **OpcionOnOff** que extiende OpcionDeMenu e implementa Activable.
 
 Esta clase tiene dos constructores: El primero recibe como parámetros la descripción y el caracter de selección. El segundo, además, recibe un booleano que indica el estado inicial de la acción (si está activada o no). Por defecto, cuando no se recibe, el valor de activada debe ser false.
 
-El método mostrar() de OpcionOnOff debe escribir, antes de la descripción de la opción:
+- El método **mostrar()** de OpcionOnOff debe escribir, antes de la descripción de la opción:
 
 “[x]”, cuando la opción está activa;
 
 “[ ]” (con un espacio en blanco en vez de la ‘x’) si no está activa.
 
-El método ejecutar() de OpcionOnOff invierte el estado de activación (pasa de activa a inactiva y viceversa).
+- El método **ejecutar()** de OpcionOnOff invierte el estado de activación (pasa de activa a inactiva y viceversa).
 
-Implementar la clase MenuDeTareas a partir de la clase Menu. Los cambios respecto a esta segunda clase son:
+- Implementar la clase **MenuDeTareas** a partir de la clase Menu. Los cambios respecto a esta segunda clase son: Su método registrar() solamente recibe objetos de la clase OpcionOnOff.
 
-Su método registrar() solamente recibe objetos de la clase OpcionOnOff.
+- Implementa el método **getTotalTareasCumplidas():int** que devuelve la cantidad de opciones del menú que están marcadas como activas.
 
-Implementa el método getTotalTareasCumplidas():int que devuelve la cantidad de opciones del menú que están marcadas como activas.
-
-Implementar la clase OpcionTareasCumplidas que extiende OpcionDeMenu.
-
-Además de la descripción y el caracter del selección recibe un MenuDeTareas.
-
-Su método ejecutar() mostrará la cantidad de opciones marcadas como cumplidas (activadas) en la instancia de MenuDeTareas recibida en el constructor.
+- Implementar la clase **OpcionTareasCumplidas** que extiende OpcionDeMenu. Además de la descripción y el caracter del selección recibe un MenuDeTareas. Su método **ejecutar()** mostrará la cantidad de opciones marcadas como cumplidas (activadas) en la instancia de MenuDeTareas recibida en el constructor.
 
 Descomentar las líneas comentadas del main y probar.
 
-
 La ejecución del programa completo, activando la primera de las opciones sin marcar mostraría lo siguiente:
 
-Menu Principal
-L - Listar Tareas
-C - Contar Tareas Cumplidas
-X - Salir
-Ingrese la opcion deseada
-c
-Cantidad de tareas cumplidas: 0
-Menu Principal
-L - Listar Tareas
-C - Contar Tareas Cumplidas
-X - Salir
-Ingrese la opcion deseada
-l
-Lista De Tareas
-[ ] I - Escribir Interfaz Activable
-[ ] O - Desarrollar Clase OpcionOnOff
-[ ] C - Desarrollar Clase OpcionTareasCumplidas
-[ ] M - Extender MenuDeTareas desde Menu
-[ ] T - Testear Programa
-[ ] E - Exportar Proyecto
-[ ] U - Entregar Proyecto Exportado
-X - Salir
-Ingrese la opcion deseada
-I
-Lista De Tareas
-[x] I - Escribir Interfaz Activable
-[ ] O - Desarrollar Clase OpcionOnOff
-[ ] C - Desarrollar Clase OpcionTareasCumplidas
-[ ] M - Extender MenuDeTareas desde Menu
-[ ] T - Testear Programa
-[ ] E - Exportar Proyecto
-[ ] U - Entregar Proyecto Exportado
-X - Salir
-Ingrese la opcion deseada
-x
-Menu Principal
-L - Listar Tareas
-C - Contar Tareas Cumplidas
-X - Salir
-Ingrese la opcion deseada
-c
-Cantidad de tareas cumplidas: 1
-Menu Principal
-L - Listar Tareas
-C - Contar Tareas Cumplidas
-X - Salir
-Ingrese la opcion deseada
-x
-Fin del programa
+![image](https://user-images.githubusercontent.com/66759199/213951243-b34d4000-09d7-407e-a3e5-375145d39cb0.png)
