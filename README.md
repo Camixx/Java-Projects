@@ -1,5 +1,6 @@
 # Proyectos de programación
-Proyectos de practica utilizando conceptos de POO, encapsulamiento, polimorfismo, herencia, y estructuras lineales y no lineales.
+Proyectos de practica utilizando conceptos de POO, encapsulamiento, polimorfismo, herencia, y estructuras lineales y no lineales, como asi también diagramas de clases.
+
 Lenguaje usado: Java
 
 
