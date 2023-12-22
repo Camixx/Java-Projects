@@ -1,0 +1,7 @@
+package droides;
+
+public enum Resultado {
+	
+	COMPLETAMENTE_OPERATIVO, REPARACION_PARCIAL, REPARACION_IMPOSIBLE,
+
+}
