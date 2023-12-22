@@ -14,6 +14,6 @@ Basado en el enunciado descripto, realizá:
 - REPARACION_IMPOSIBLE: cuando no se logre reparar ninguna de las piezas no operativas que pudiera tener
 
 
-# DIAGRAMA UML
+### DIAGRAMA UML
 
 ![UML](UML.png)
