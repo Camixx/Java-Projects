@@ -22,6 +22,6 @@ El método devolverá -1 si no se pudiera realizar el checkout1
 (por no encontrar la habitación
 enviada como parámetro o no estar ocupada).
 
-## DIAGRAMA UML
+### DIAGRAMA UML
 
 ![UML](UML.png)
