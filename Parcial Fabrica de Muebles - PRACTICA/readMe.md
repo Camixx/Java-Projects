@@ -32,7 +32,7 @@ Adicionalmente todos los muebles deberán poder indicar, mediante un método, si
 Por otro lado, la fábrica de muebles poseerá un listado de muebles fabricados y un nombre. Además tendrá como responsabilidad la fabricación de muebles (registro de los muebles fabricados), deberá poder indicar si un determinado modelo de mueble ha sido fabricado y por último, al ser Mostrable, deberá mostrar por consola un resumen que indique su nombre, la cantidad de muebles fabricados de cada tipo y el importe total de las ventas de los muebles fabricados.
 
 
-### Diagrama de clases de la solución:
+# Diagrama de clases de la solución:
 
 ![image](https://user-images.githubusercontent.com/66759199/213953335-21b17017-caab-446c-995a-2c6e16289538.png)
 
