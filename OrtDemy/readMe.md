@@ -15,6 +15,6 @@ Basado en el enunciado descripto, realizá:
 - MAX_BECADOS: El usuario es becado y el curso ya cuenta con el máximo de becados posible.
 - SUSCRIPTO_OK: El usuario se suscribió exitosamente al curso. Debe guardarse en la lista de suscriptos.
 
-## DIAGRAMA UML
+### DIAGRAMA UML
 
 ![UML](UML.png)
