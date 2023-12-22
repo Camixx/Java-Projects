@@ -58,5 +58,3 @@ La ejecución de la clase Parcial1 deberá arrojar el siguiente resultado:
 ![image](https://user-images.githubusercontent.com/66759199/213953375-4a6f0322-4f2c-4920-8cfc-beedb88eda33.png)
 
 
-## NOTA
-Hay un error en los precios arrojados en el test, todavía no pude descubrir el por qué de dicho error.
